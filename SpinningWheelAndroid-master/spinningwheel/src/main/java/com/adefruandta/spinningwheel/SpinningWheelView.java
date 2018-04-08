@@ -396,7 +396,9 @@ public class SpinningWheelView extends View implements WheelRotation.RotationLis
 
         setItems(items);
     }
-
+    public void addNewItem(String item) {
+        items.add(item);
+    }
     public OnRotationListener getOnRotationListener() {
         return onRotationListener;
     }
