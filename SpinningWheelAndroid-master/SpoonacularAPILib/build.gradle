@@ -3,7 +3,7 @@ apply plugin: 'android-library'
 android {
     //update the following to match your sdk and build tools versions
     compileSdkVersion 19
-    buildToolsVersion "19.1.0"
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 10
